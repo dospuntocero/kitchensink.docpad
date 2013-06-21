@@ -42,7 +42,8 @@
 		"docpad-plugin-marked": "2.x",
 		"docpad-plugin-nativecomments": "2.x",
 		"docpad-plugin-partials": "2.x",
-		"docpad-plugin-stylus": "2.x"
+		"docpad-plugin-stylus": "2.x",
+		"docpad-plugin-contactform": "1.x"
 	},
 	"devDependencies": {
 		"docpad-plugin-livereload": "2.x"

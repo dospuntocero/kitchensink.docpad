@@ -1,0 +1,16 @@
+---
+layout: 'default'
+title: 'Getting Started'
+---
+#simple contact form demo
+you need to create an account on (postmark)[https://postmarkapp.com/sign_up], 
+then you just need to create a server and get the API key of it and add it to the configuration file
+like this
+
+  plugins:
+    contactform:
+        postmarkAPI: '<your api key here>'
+        toEmail: '<your email here>'
+
+
+<%- @getContactForm() %>
